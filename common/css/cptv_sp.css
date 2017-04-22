@@ -1,0 +1,128 @@
+@charset "utf-8";
+
+
+/*改定版*/
+#cptvbox{
+	font-family: 'メイリオ',Meiryo,'ＭＳ Ｐゴシック','ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro', verdana, Helvetica,Arial, sans-serif;
+	z-index:10000;		
+}
+
+.cptvnew{
+	width:100%;
+	height:50px;
+	display:block;
+	position:fixed;
+	bottom:0px;
+	background-color:rgba(1,64,153,0.9);	
+}
+
+.cptvnew .titleback{
+	width:45px;
+	height:100%;	
+	display:block;
+	position:absolute;
+	left:0;
+	bottom:0;
+	z-index:99;
+}
+
+.cptvnew .title{
+	width:90%;
+	display:block;
+	position:absolute;
+	z-index:100;
+	text-align:center;
+	color:#16a7ea;
+}
+
+.cptv_play{
+	padding: 0 !important;
+}
+
+.cptv_play img{
+	width: 45px;
+	height: 50px;
+
+}
+
+.cptvnew .txt{
+	width:100%;		
+	height:100%;
+	display:block;
+	position:absolute;
+	left:45px;
+	color:#ffffff;
+	text-decoration: none;
+	font-weight:bold;
+}
+
+.cptvnew .txt a{
+	color:#ffffff !important;	
+}
+
+.cptvnew .btn{
+	position:absolute;
+	right:0;
+	color:#ffffff;
+	font-weight:bold;
+	width:40px;
+	height: 50px;
+	bottom:0;
+	cursor: default;	
+	background-color:rgba(234,234,26,1);
+	z-index: 100000000;			
+}
+
+.cptvnew .btn p{
+	text-align: center;
+	letter-spacing:0;
+	padding: 0 !important;
+	font-size: 18px;
+
+	color:#014099;
+	text-decoration:none;	
+	line-height: 50px;
+}
+
+.cptvnew .btn a{
+	cursor: pointer;
+	color:#014099 !important;
+}
+
+.cptvnew .txt span{
+	color:#ffd200;	
+}
+	
+.cptvnew ul{
+	min-width:640px;
+	height:100%;
+	position:relative;
+	overflow:hidden;
+	right:0;
+	-webkit-text-size-adjust: none;
+}
+
+.cptvnew li{
+	min-width:640px;
+	height:100%;
+	margin:0;
+	padding:0;
+	position:absolute;
+	top:0;
+	left:100%;
+	text-align:left;
+	list-style-type:none;		
+}
+
+.cptvnew li p{
+	min-width:640px;
+	height:100%;
+	display:block;
+	padding:1.4em;
+	color:#ffffff;
+	font-size:12px !important;	
+	text-decoration: none;
+	line-height:1.5em;	
+	letter-spacing:0 !important;
+	white-space: nowrap;	
+}

@@ -9,3 +9,15 @@ html {
 	font-feature-settings: "pkna";
 }
 
+body{
+	width:100%;
+	min-width: 300px;
+}
+
+.subpage #mainConts{
+	box-sizing: border-box;
+	margin: 40px 0 0 auto;
+	width: 100%;
+	padding-left: 0px;
+	min-height: 500px;
+}
