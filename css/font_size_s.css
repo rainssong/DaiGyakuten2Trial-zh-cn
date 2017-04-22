@@ -1,0 +1,179 @@
+@charset "shift-jis";
+/*----■共通■-------------------------*/
+.FontSize-StrongTxt, caption {
+	font-size: 90%;
+	line-height: 1.6;
+	font-weight: normal;
+}
+.FontSize-MainTxt {
+	font-size: 75%;
+	line-height: 1.6;
+}
+.FontSize-SubTxt {
+	font-size: 70%;
+	line-height: 1.6;
+}
+h3, h4, h5 {
+	font-size: 75%;
+	line-height: 1.6;
+	font-weight: normal;
+}
+h4.headBox {
+	font-size: 85%;
+	line-height: 1.6;
+}
+
+div.tab-2ndLevel, div.tab-2ndLevelRec, div.tab-3rdLevelBott, div.tab-3rdLevel {
+	font-size: 70%;
+	line-height: 1.6;
+}
+div.tab-3rdLevelSP, div.tab-4thLevelSP, div.tab-5thLevelSP, div.tab-3rdLevelSPA, div.tab-4thLevelSPA, div.tab-5thLevelSPA {
+	font-size: 85%;
+}
+.FontSize-MainTxt h4, .FontSize-MainTxt h3, .FontSize-MainTxt caption, #Contents-RecruitContents table tr td caption {
+	font-size: 100%;
+	line-height: 1.6;
+}
+.FontSize-MainTxt dl, .FontSize-MainTxt dt, .FontSize-MainTxt dd {
+	font-size: 100%;
+	line-height: 1.6;
+}
+.FontSize-StrongTxt dl, .FontSize-StrongTxt dt, .FontSize-StrongTxt dd {
+	font-size: 100%;
+	line-height: 1.6;
+}
+/*---■ヘッダ■--------------------------*/
+.FontC-s a {
+	float: left;
+	margin-right: 2px;
+	padding: 1px 2px;
+	color: #eeeeee;
+	text-decoration: none;
+	border: 1px solid #CCCCCC;
+	background-color: #3366cc
+}
+.FontC-m a, .FontC-l a {
+	float: left;
+	margin-right: 2px;
+	padding: 1px 2px;
+	color: #eeeeee;
+	text-decoration: none;
+	border: 1px solid #CCCCCC;
+	background-color: #003366
+}
+/**ヘッダの小メニューのサイズは固定するため
+------------------------------------------------------------ */
+.FontSize-head-MainTxt {
+	font-size: 75%;
+	line-height: 1.4;
+}
+.FontSize-head-SubTxt {
+	font-size: 70%;
+	line-height: 1.4;
+}
+#btn-head-HOME a, .FontC-s a, .FontC-m a, .FontC-l a {
+	font-size: 75%;
+	line-height: 1.4;
+}
+/*---テーブル組のフォントサイズ---*/
+#Contents-RecruitContents table tr th, #Contents-RecruitContents table tr td {
+	font-size: 75%;
+	line-height: 1.6;
+}
+#Contents-RecruitContents table tr td table tr th, #Contents-RecruitContents table tr td table tr td, #Contents-RecruitContents table tr td caption {
+	/*入れ子の場合*/
+	font-size: 100%;
+	line-height: 1.6;
+}
+#Contents-RecruitContents table h3 {
+	font-size: 115%;
+	line-height: 1.6;
+	font-weight: bold;
+}
+#Contents-RecruitContents table h4 {
+	font-size: 100%;
+	line-height: 1.6;
+	font-weight: bold;
+}
+/*---■採用情報■--------------------------*/
+#menu-Recruit, .ReadTxtTypeOfJob, .recDvpContentsBoxCareer, table.TypeOfJob caption {
+	font-size: 75%;
+	line-height: 1.6;
+}
+table dt, table dd {
+	font-size: 100%;
+	line-height: 1.6;
+}
+strong.rec, strong.rec2 {
+	font-size: 150%;
+}
+h4.recDvpContentsTitle, h4.recDvpCareerTitle {
+	font-size: 100%;,
+	line-height: 1.6;
+}
+li.workTitle2 p.FontSize-MainTxt {
+	font-size: 100%;
+	font-family: Arial;
+	color: #999999;
+	text-transform: uppercase;
+}
+/*---■更新情報■--------------------------*/
+dt, dd {
+	font-size: 75%;
+	line-height: 1.6;
+}
+dt.FontSize-StrongTxt, dd.FontSize-StrongTxt {
+	font-size: 85%;
+	line-height: 1.6;
+}
+dl.FontSize-SubTxt dt, dl.FontSize-SubTxt dd {
+	font-size: 90%;
+	line-height: 1.6;
+}
+.bearm-left-m-bott {
+	font-size: 75%;
+	line-height: 1.6;
+}
+/*---■フッタ■--------------------------*/
+#menu-footer {
+	font-size: 75%;
+	line-height: 1.6;
+}
+#c-footer {
+	font-size: 70%;
+	line-height: 1.6;
+}
+
+/*---■Ｎｅｗｓ■--------------------------*/
+div.Event-Body {
+	font-size: 75%;
+	line-height: 1.6;
+}
+div.Event-Bott {
+	font-size: 75%;
+	line-height: 1.6;
+}
+.Platform-Sort {
+	font-size: 75%;
+	line-height: 1.6;
+}
+/*---■Amusement■--------------------------*/
+p.Amuset-Shop  {
+	font-size: 75%;
+	line-height: 1.6;
+}
+
+/*---■採用情報リニューアル■--------------------------*/
+#wrap_bsn_new p {
+	font-size: 75%;
+	line-height: 1.6;
+}
+#wrap_bsn_new table {
+	font-size: 75%;
+	line-height: 1.6;
+}
+#wrap_bsn_new .suport .block dl {
+	margin: 0px 15px 15px 0px;
+	height: 280px;
+	float: left;
+}

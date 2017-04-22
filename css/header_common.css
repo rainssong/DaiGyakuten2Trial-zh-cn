@@ -1,0 +1,192 @@
+/**基本領域CSS*******
+------------------------------------------------------------ **/
+div#attention {
+	position: absolute;
+	top: -999px;
+}
+
+/**ヘッダー領域CSS**********
+------------------------------------------------------------ **/
+#wrap {
+	background: url(../img_header/bg_wrap.jpg) repeat-x left top;
+}
+div#g-header {
+	min-width: 1000px;
+	overflow: hidden;
+	height: 124px;
+	background: url(../img_header/bg_header.jpg) no-repeat center top;
+	margin: 0;
+}
+div#g-header img {
+	border: none;
+}
+div#g-header .inner {
+	width: 1000px;
+	margin: 0 auto;
+	position: relative;
+}
+div#g-header .header-btm {
+	width: 1700px;
+	height: 42px;
+	position: absolute;
+		top: 82px;
+		left: -350px;
+	background: url(../img_header/header_bottom.jpg) no-repeat center bottom;
+}
+div#g-header #ttl-area {
+	width: 200px;
+	padding: 36px 0 0;
+}
+#menu-area .nav ul#global-navi {
+	position: absolute;
+	top: 46px;
+	right: 0;
+	padding: 0px 0 2px 1px;
+	background: #000000 url(../img_header/bg_gnavi.png) no-repeat right bottom;
+}
+#menu-area .nav ul#global-navi li {
+	float: left;
+	padding: 0 15px;
+}
+#menu-area .nav ul#global-navi li.top {
+	display: none;
+}
+#menu-area .nav ul#utility-navi {
+	position: absolute;
+		top: 8px;
+		right: 0;
+	font-family: 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'メイリオ', Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+}
+#menu-area .nav ul#utility-navi li {
+	line-height: 20px;
+	float: right;
+	padding: 0 5px 0 17px;
+	font-size: 70%;
+}
+#menu-area .nav ul#utility-navi li a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+#menu-area .nav ul#utility-navi li.txt a:hover {
+	opacity: 0.8;
+	-moz-opacity: 0.8;
+}
+
+
+/**フッター領域CSS**********
+------------------------------------------------------------ **/
+#PageTop-Footer {
+	padding: 5px 20px;
+	width: 750px;
+	text-align: right;
+	background: url(../img_main/footer_bg2.gif) no-repeat 0px 0px;
+	margin: 0px auto;
+}
+#wrap .Footer-Beam {
+	margin-bottom: 15px;
+}
+#footer-navi {
+	min-width: 1000px;
+	clear: both;
+	background: #F2F2F2;
+	background: url(../img_header/bg_fnavi.jpg) repeat left top;
+	font-size: 14px;
+	font-family: 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'メイリオ', Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+	text-align: left;
+	color: #555555;
+}
+#footer-navi .inner {
+	width: 1000px;
+	margin: 0 auto;
+	padding: 30px 0 0;
+}
+#footer-navi .inner div {
+	display: block;
+	float: left;
+}
+#footer-navi .inner div a {
+	color: #555555;
+	text-decoration: none;
+}
+#footer-navi .inner div a:hover {
+	text-decoration: underline;
+}
+#footer-navi .inner .navi-block01 {
+	width: 260px;
+}
+#footer-navi .inner .navi-block02 {
+	width: 310px;
+}
+#footer-navi .inner .navi-block03 {
+	width: 200px;
+}
+#footer-navi .inner .navi-block04 {
+	float: right;
+	width: 210px;
+}
+#footer-navi .inner div p {
+	margin: 0 0 15px;
+}
+#footer-navi .inner div p.ttl {
+	font-weight: bold;
+}
+#footer-navi .inner ul {
+	margin: 0 0 25px;
+	list-style-type: none;
+}
+#footer-navi .inner .navi-block03 ul {
+	margin: 0 0 35px
+}
+#footer-navi .inner ul li {
+	line-height: 1.0;
+	margin: 0 0 15px
+}
+#footer {
+	min-width: 1000px;
+	color: #FFFFFF;
+	background: #000000;
+	border-top: 1px solid #000000;
+	-webkit-box-shadow: 0 1px 1px 0px rgba(255,255,255,0.3)inset;
+	-moz-box-shadow: 0 1px 1px 0px rgba(255,255,255,0.3)inset;
+	box-shadow: 0 1px 1px 0px rgba(255,255,255,0.3)inset;
+	text-align: center;
+	font-family: 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'メイリオ', Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+	margin-top: 0px;
+}
+#footer .inner {
+	width: 1000px;
+	margin: 0 auto;
+	padding: 20px 0 25px;
+	color: #CCCCCC;
+}
+#footer ul {
+	float: left;
+	font-size: 14px;
+}
+#footer ul li {
+	display: inline;
+	padding: 0 60px 0 0;
+}
+#footer ul li a {
+	color: #CCCCCC;
+	text-decoration: none;
+}
+#footer ul li a:hover {
+	text-decoration: underline;
+}
+#footer p.copyright {
+	float: right;
+	font-size: 14px;
+}
+
+
+/**clearfix**********
+------------------------------------------------------------ **/
+.clearfix {
+	zoom:1;
+}
+.clearfix:after {
+	content:"";
+	display:block;
+	clear:both;
+}

@@ -1,0 +1,124 @@
+@charset "utf-8";
+/* CSS Document */
+
+footer{
+	width:100%;
+}
+
+#title_footer {
+	margin:0;
+	padding:5px 0;
+	background:#000;
+	font-family: -apple-system, ‘Helvetica Neue’, ‘Hiragino Kaku Gothic ProN’, ‘游ゴシック’, ‘メイリオ’, meiryo, sans-serif;
+	color: #444;
+	background-color:#000;
+	text-align:center;
+	line-height:1.1em;
+}
+
+#title_footer a {
+	text-decoration:none;
+	color:#CCC;
+}
+#title_footer a:hover {
+	color:#CCC;
+	text-decoration:underline;
+}
+
+#title_footer a:visited {
+	color:#CCC;
+}
+
+/*-------------------------*/
+/*snsbtn
+/*-------------------------*/
+
+#footer_sns ul{
+	text-align:center;
+	padding:10px 0 0 0;
+	overflow:hidden;
+	background:#000;
+}
+
+#footer_sns ul li{
+	display:inline-block;
+	padding:0 10px;
+}
+
+/*-------------------------*/
+/*productlogo
+/*-------------------------*/
+
+#title_footer ul#productlogo01{
+	overflow:hidden;
+	padding:5px;
+	text-align:center;
+	border-top:solid 1px #444;
+}
+
+#title_footer ul#productlogo01 li{
+	display:inline-block;
+/*
+	height:56px;
+	line-height:56px;
+*/
+	padding:10px;
+}
+
+#title_footer ul#productlogo01 li img{
+	vertical-align:middle;
+}
+
+/*-------------------------*/
+/*link
+/*-------------------------*/
+
+#title_footer #capcom_menu{
+	border-top:solid 1px #444;
+	font-size:1em;
+	padding:6px;
+}
+
+#title_footer #capcom_menu li{
+	float:left;
+	list-style:none;
+}
+
+#title_footer #capcom_menu li.box1{
+	width:50%;
+}
+
+#title_footer #capcom_menu li.box2{
+	width:100%;
+}
+
+#title_footer #capcom_menu li a{
+	display:block;
+	margin:6px;
+	padding:12px;
+	text-align:center;
+	border:solid 1px #444;
+}
+
+#title_footer #capcomlogo{
+	width:100%;
+	border-top:1px solid #444;
+	padding-top:10px;
+	text-align:center;
+}
+
+#title_footer #copyright01{
+	padding:0 10px 5px 10px;
+	font-size:10px;
+}
+
+#title_footer #copyright01 img{
+	vertical-align:middle;
+}
+
+#title_footer #copy_capcom{
+	border-top:solid 1px #444;
+	padding:10px 0;
+	font-size:10px;
+	text-align:center;
+}

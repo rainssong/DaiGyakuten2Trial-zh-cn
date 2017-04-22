@@ -1,0 +1,257 @@
+@charset "shift-jis";
+/*コンテンツ関連CSS
+------------------------------------------------------------ */
+#main {
+	width: 790px;
+	background: #FFFFFF url(../img_main/line_mainbg.gif) repeat-y 0px 0px;
+	margin: 0px auto;
+}
+
+#main-left {
+	width: 520px;
+	border-right: 1px solid #999999;
+	float: left;
+}
+#main-right {
+	width: 259px;
+	float: right;
+}
+
+/*バナー上部CSS
+------------------------------------------------------------ */
+#Topic-left-top {
+	height: 22px;
+	width: 520px;
+	background: url(../img_main/beam_left_m.gif) no-repeat left top;
+}
+#Topic-left-top li {
+	position: relative;
+	top: 9px;
+	right: 0px;
+	float: right;
+	padding: 0px 15px 0px 0px;
+	background: url(../img_main/arrow_orange.gif) no-repeat left center;
+}
+#Topic-left-top a {
+	background: url(../img_main/page_game.gif) no-repeat right center;
+	padding: 0px 25px 0px 15px;
+}
+
+/*バナー画像部分CSS
+------------------------------------------------------------ */
+#banner-main {
+	width: 496px;
+	background: url(../img_banner/bar.gif) no-repeat left center;
+	position: relative;
+	left: 12px;
+	margin-bottom: 4px;
+}
+#banner-main img {
+	border: 1px solid #FFFFFF;
+}
+#banner-main a:hover img {
+	border: 1px solid #FFCC00;
+}
+#banner-main-left, #banner-main-right {
+	position: relative;
+	left: 5px;
+	float: left;
+}
+#banner1 {
+	background-color: #999999;
+	padding: 2px;
+	margin-right: 4px;
+}
+#banner2 {
+	background-color: #999999;
+	padding: 2px;
+	margin-bottom: 4px;
+}
+#banner3 {
+	background-color: #999999;
+	padding: 2px;
+}
+/*バナー下　メインボタン関連CSS
+------------------------------------------------------------ */
+
+/*メインボタン上部
+---------------------------------- */
+#btn-portal-top {
+	width: 486px;
+	position: relative;
+	left: 17px;
+	background: url(../img_main/btn_bg.gif) repeat-y left top;
+}
+
+/*------------------------------- */
+
+#btn-shopping, #btn-fansite {
+	/*↓対策：IE6にてFanSiteテキストが終わり3文字程度オーバーフロー*/
+	background: url(../img_main/btn_bg.gif) repeat-y 162px top;
+	display: inline;
+	/*↑対策*/
+	width: 162px;
+	float: left;
+}
+#btn-game {
+	/*↓対策：IE6にてFanSiteテキストが終わり3文字程度オーバーフロー*/
+	background: url(../img_main/btn_bg.gif) repeat-y 0px top;
+	display: inline;
+	/*↑対策*/
+	width: 162px;
+	float: left;
+}
+#btn-game h3 a, #btn-game h3 a:hover, #btn-game h3 a:visited, #btn-shopping h3 a, #btn-shopping h3 a:hover, #btn-shopping h3 a:visited, #btn-fansite h3 a, #btn-fansite h3 a:hover, #btn-fansite h3 a:visited {
+	display: block;
+	text-decoration: none;
+	color: #000000;
+	width: 152px;
+}
+/*------------------------------- */
+#btn-game h3 {
+	padding: 5px;
+	/*background: url(../img_main/bg_g.gif) no-repeat 125px 5px;*/
+}
+#btn-shopping h3 {
+	padding: 5px;
+	/*background: url(../img_main/bg_e.gif) no-repeat 125px 5px;*/
+}
+#btn-fansite h3 {
+	padding: 5px;
+	/*background: url(../img_main/bg_u.gif) no-repeat 125px 5px;*/
+}
+
+/*メインボタン下部
+------------------------------------------------------------ */
+#btn-portal-bott {
+	width: 486px;
+	position: relative;
+	left: 17px;
+	background: url(../img_main/btn_bg_bott.gif) no-repeat left bottom;
+}
+#btn-game2, #btn-shopping2, #btn-fansite2 {
+	width: 162px;
+	float: left;
+	background: url(../img_main/btn_bg2.gif) no-repeat right top;
+	padding: 5px 0px 10px 0px;
+	text-align: right;
+}
+/*------------------------------- */
+#btn-game2 li, #btn-shopping2 li, #btn-fansite2 li {
+	margin-right: 5px;
+	background: url(../img_main/arrow_orange.gif) no-repeat left center;
+	display: inline;
+}
+/*------------------------------- */
+#btn-game2 a {
+	/*background: url(../img_main/page_game.gif) no-repeat right center;*/
+	padding: 5px 5px 5px 15px;
+}
+#btn-shopping2 a {
+	background: url(../img_main/page_cog.gif) no-repeat right center;
+	padding: 5px 22px 5px 15px;
+}
+#btn-fansite2 a {
+	/*background: url(../img_main/page_ucap.gif) no-repeat right center;*/
+	padding: 5px 5px 5px 15px;
+}
+
+/* お知らせ関連
+------------------------------------------------------------ */
+.title-bar-info {
+	height: 25px;
+	width: 515px;
+	margin-top: 10px;
+	background: url(../img_main/bar.gif) no-repeat left top;
+}
+.title-bar-whatsnew {
+	height: 25px;
+	width: 515px;
+	margin-top: 20px;
+	background: url(../img_main/bar.gif) no-repeat left top;
+}
+
+/* 日付別情報インデックス用
+---------------------- */
+.Info-Archive dl {
+	margin: 5px 0px 0px 30px;
+}
+.News-Archive dl {
+	margin: 0px 0px 0px 20px;
+}
+.News-Archive dt {
+	background-color: #FFFFFF;
+}
+.News-Archive dd {
+	background: #eeeeee url(../img_main/line_news_area.gif) repeat-y 0% 50%;
+}
+.News-GameTitle {
+	padding: 4px 10px 4px 10px;
+	background: url(../img_main/line_archive.gif) no-repeat 50% 100%;
+}
+
+/* スクリーンビーム＞＞ボトム
+---------------------- */
+.bearm-left-m-bott {
+	margin: 10px 0px 0px 0px;
+	width: 510px;
+	height: 30px;
+	background: url(../img_main/beam_left_m_bott.gif) no-repeat 0% 100%;
+	text-align: right;
+}
+.bearm-left-m-bott a {
+	background: url(../img_main/arrow_mainmenu.gif) no-repeat 0% 50%;
+	padding: 0px 10px 0px 10px;
+}
+
+/* 右側
+------------------------------------------------------------ */
+.info-IR-Body {
+	margin: 0px 0px 0px 1px;
+	background-color: #eeeeee;
+	width: 255px;
+}
+.info-IR-Body dl {
+	margin: 0px 0px 0px 5px;
+}
+.info-IR-Body dt {
+	width: 245px;
+	padding-top: 10px;
+	background: url(../img_main/dotted.gif) repeat-x 0% 100%;
+}
+.info-IR-Body dd {
+	width: 225px;
+	padding: 5px 5px 15px 15px;
+}
+.info-IR-Body dd a {
+	width: 225px;
+	display: block;
+}
+#btn-IR-bott {
+	width: 259;
+	height: 40px;
+	background: url(../img_main/beam_right_ir_bott.gif) no-repeat left top;
+}
+.btn-right-bott {
+	margin: 0px 0px 0px 10px;
+	width: 230px;
+	height: 25px;
+	margin-top: 10px;
+}
+.btn-right-bott-sub {
+	margin: 0px 0px 0px 10px;
+	width: 230px;
+	height: 25px;
+	margin-top: 0px;
+}
+#menu-Recruit ul {
+	margin: 0px 0px 0px 40px;
+}
+#menu-Recruit li {
+	margin: 5px 0px 10px 0px;
+	background: url(../img_main/arrow_footer.gif) no-repeat 0px 50%;
+}
+#menu-Recruit a {
+	display: inline;
+	padding: 0px 0px 0px 10px;
+}

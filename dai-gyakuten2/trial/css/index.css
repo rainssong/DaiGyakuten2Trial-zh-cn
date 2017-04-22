@@ -1,0 +1,103 @@
+@charset "utf-8";
+/* CSS Document */
+#mainConts{
+}
+
+#mainConts article{
+	box-sizing: border-box;
+	margin:60px auto 0;
+	border: 1px solid #a69969;
+	font-size:1.4rem;
+	background: #FFF;
+	padding: 30px;
+	line-height: 2rem;
+}
+#mainConts article dl dt{
+	color: #a69969;
+	font-size:1.4rem;
+}
+
+#mainConts article dl dd + dt{
+	margin-top: 20px;
+}
+
+#mainConts article + aside{
+	margin: 10px auto 0;
+}
+
+.share{
+	margin: 40px auto auto;
+	text-align: center;
+}
+
+.share p{
+	font-size: 2.2rem;
+}
+
+.share ul{
+	margin: 20px auto auto;
+	letter-spacing: -.40em;
+}
+
+.share ul li{
+	letter-spacing: normal;
+	display: inline-block;
+	width: 40px;
+	margin: 0 10px 0;
+}
+
+.share ul li img{
+	width: 100%;
+}
+
+/* ゲーム部分
+-----------------------------------------------*/
+#view{
+	width: 670px;
+	margin: auto auto;
+}
+#view #error
+{
+    position:absolute;
+    text-align:center;
+    vertical-align:middle;
+}
+
+#view #ds{
+    z-index: 0;
+    user-select: none;
+		line-height : 1.6 !important;
+    -ms-text-size-adjust : 100% !important;
+    -webkit-text-size-adjust : 100% !important;
+}
+
+#view #upper
+{
+    position: relative;
+    z-index: 1;
+    -webkit-tap-highlight-color:transparent;
+    -webkit-user-select: none;  /* Chrome or Safari */
+    -moz-user-select: none;     /* FireFox */
+    -ms-user-select: none;      /* IE */
+    -o-user-select: none;       /* Opera */
+    user-select: none;
+}
+
+#view #lower
+{
+    position: relative;
+    z-index: 1;
+    cursor:default;
+    overflow:hidden;
+    -webkit-tap-highlight-color:transparent;
+    -webkit-user-select: none;  /* Chrome or Safari */
+    -moz-user-select: none;     /* FireFox */
+    -ms-user-select: none;      /* IE */
+    -o-user-select: none;       /* Opera */
+    user-select: none;
+}
+
+#view img
+{
+    display: none;
+}

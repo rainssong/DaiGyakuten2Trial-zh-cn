@@ -1,0 +1,115 @@
+@charset "shift-jis";
+
+#Contents-Box {
+	width: 1000px;
+	margin: 0 auto;
+	font-family: 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'メイリオ', Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+	color: #444444;
+}
+#Contents-Box img {
+	border: none;
+}
+#Contents-Box h2 {
+	margin: 0 0 50px;
+	padding: 20px 0 0;
+}
+#Contents-Box h3 {
+	margin: 20px 0 35px;
+}
+#Contents-Box h4 {
+	margin: 0 0 5px;
+	font-size: 85%;
+	font-weight: bold;
+}
+#Contents-Box ul li {
+	display: inline-block;
+	float: left;
+	padding: 0 0 50px;
+	vertical-align: top;
+}
+#Contents-Box ul.game li.rightend {
+	margin: 0;
+}
+#Contents-Box ul.line01 li {
+	width: 480px;
+	margin: 0 40px 0 0;
+}
+#Contents-Box ul.line01 li ul.slide li {
+	width: 480px;
+	height: 180px;
+	padding: 0;
+}
+#Contents-Box ul.line01 li ul.slide {
+	width: 480px;
+	height: 180px;
+	overflow: hidden;
+}
+#Contents-Box ul.line01 li .bx-wrapper {
+	position: relative;
+}
+#Contents-Box ul.line01 li .bx-controls .bx-pager {
+	position: absolute;
+	bottom: 5px;
+	right: 5px;
+	z-index: 100;
+}
+.bx-wrapper .bx-pager .bx-pager-item,
+.bx-wrapper .bx-controls-auto .bx-controls-auto-item {
+	display: inline-block;
+	*zoom: 1;
+	*display: inline;
+}
+#Contents-Box ul.line01 li .bx-controls .bx-pager a {
+	float: left;
+	width: 10px;
+	height: 10px;
+	background: url(../games_service/img_games/slide_pointer.png) no-repeat right top;
+	margin: 0 2px 0 3px;
+	text-indent: -9999px;
+}
+#Contents-Box ul.line01 li .bx-controls .bx-pager a.active{
+		background-position: left top;
+}
+#Contents-Box ul.line02 li {
+	width: 306px;
+	margin: 0 40px 0 0;
+}
+#Contents-Box h3.service {
+	clear: both;
+	padding: 20px 0 0;
+}
+#Contents-Box ul.service li {
+	width: 306px;
+	margin: 0 40px 0 0;
+	padding: 0 0 60px;
+}
+#Contents-Box ul.service li.rightend {
+	margin: 0;	
+}
+#Contents-Box ul li div img {
+	border-radius: 5px; 
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+#Contents-Box ul li dl {
+	margin: 15px 0 0;
+}
+#Contents-Box ul li dt {
+	margin: 0 0 15px;
+	font-size: 95%;
+	position: relative;
+}
+#Contents-Box ul li dt a {
+	color: #003AA6;
+}
+#Contents-Box ul li dt a:hover {
+	color: #3D6AC0;
+}
+#Contents-Box ul li dt .img_logo {
+	position: absolute;
+		top: -6px;
+		right: 0;
+}
+#Contents-Box ul li dd {
+	font-size: 85%;
+}

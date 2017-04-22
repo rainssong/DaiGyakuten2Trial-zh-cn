@@ -1,0 +1,78 @@
+@charset "shift-jis";
+
+#Contents-Box {
+	width: 1000px;
+	margin: 0 auto;
+	font-family: 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'メイリオ', Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+	color: #444444;
+}
+#Contents-Box img {
+	border: none;
+}
+#Contents-Box h2 {
+	margin: 0 0 45px;
+	padding: 20px 0 0;
+}
+#Contents-Box #news-area {
+	margin: 0 0 60px;
+}
+#Contents-Box .news-list {
+	float: left;
+	width: 100%;
+	margin: 0 0 15px;
+	padding: 0 0 20px;
+	border-bottom: 1px dotted #CCCCCC;
+}
+#Contents-Box .news-list .date {
+	float: left;
+	width: 100px;
+	font-size: 90%;
+	color: #666666;
+}
+#Contents-Box .news-list .cat {
+	float: left;
+	width: 140px;
+	margin: 2px 25px 0 0;
+	padding: 0;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 11px;
+}
+#Contents-Box .news-list .cat img {
+	vertical-align: middle;
+}
+
+.news-list .cat.release { background: #3A6565 }
+.news-list .cat.ir { background: #6A458D }
+.news-list .cat.game { background: #0063A2 }
+.news-list .cat.am { background: #8D4544 }
+.news-list .cat.event { background: #008FA1 }
+.news-list .cat.mobile { background: #1B9777 }
+.news-list .cat.pachinko { background: #597E42 }
+.news-list .cat.shopping { background: #928254 }
+
+.news-list .news {
+	float: left;
+	width: 730px;
+	font-size: 90%;
+}
+.news-list .news a {
+	color: #0044AB;
+	text-decoration: none;
+}
+.news-list .news a:hover {
+	color: #3D6AC0;
+	text-decoration: underline;
+}
+
+/* ========================================
+	Clearfix
+======================================== */
+.clearfix {
+	zoom:1;
+}
+.clearfix:after {
+	content:"";
+	display:block;
+	clear:both;
+}

@@ -1,0 +1,200 @@
+@charset "shift-jis";
+/**基本領域CSS*******
+------------------------------------------------------------ **/
+div#attention {
+	position: absolute;
+	top: -999px;
+}
+.Line-top {
+	background: #FFFFFF url(../img_main/bar_navi.gif) no-repeat center top;
+	height: 15px;
+	width: 790px;
+	margin: 0px auto;
+}
+.Line-bott {
+	background: #FFFFFF url(../img_main/bar_navi.gif) no-repeat center top;
+	height: 25px;
+	width: 790px;
+	margin: 0px auto;
+	clear: both;
+}
+#Line-bott {
+	background: #FFFFFF url(../img_main/bar_navi.gif) no-repeat center bottom;
+	height: 25px;
+	width: 790px;
+	margin: 0px auto;
+	clear: both;
+	text-align: right;
+}
+/**ヘッダー領域CSS**********
+------------------------------------------------------------ **/
+#header {
+	width: 790px;
+	background: url(../img_main/header_bg_left.gif) no-repeat 0px 0px;
+	margin: 0px auto;
+}
+#CAPCOM {
+	height: 72px;
+	width: 200px;
+	float: left;
+}
+#menu-header{
+	width: 590px;
+	float: right;
+}
+/*----------------------------- */
+#btn-head-HOME {
+	margin-top: 10px;
+	width: 70px;
+	float: left;
+	color: #cccccc;
+}
+#btn-etc {
+	margin-top: 7px;
+	width: 450px;
+	height: 42px;
+	float: right;
+}
+/*----------------------------- */
+#btn-main {
+	width: 570px;
+	margin-left: 20px;
+	clear: both;
+}
+
+/*ヘッダー領域　サブリンク関連CSS
+------------------------------------------------------------ */
+#btn-etc li {
+	float: right;
+}
+.arrow-font-size {
+	margin-right: 15px;
+}
+li.FontSize-head-MainTxt {
+	margin-top: 5px;
+	background: url(../img_main/arrow_header.gif) no-repeat left center;
+}
+/**HOMEボタンのリンク時との位置合わせ**/
+#btn-head-HOME span.FontSize-head-MainTxt {
+	padding-left: 8px;
+}
+#btn-head-HOME a {
+	padding: 3px 0px 3px 8px;
+	color: #eeeeee;
+	background: url(../img_main/arrow_header.gif) no-repeat left center;
+}
+/*----フォントサイズ　大　中　小----*/
+.FontC-s a:hover, .FontC-m a:hover, .FontC-l a:hover {
+	border: 1px solid #FFCC00;
+}
+.FontSize-head-SubTxt {
+	float: left;
+	display: block;
+	padding: 3px 5px 0px 0px;
+	color: #CCCCCC;
+}
+.FontSize-head-SubTxt a, .FontSize-head-SubTxt a:hover, .FontSize-head-SubTxt a:visited {
+	color: #CCCCCC;
+}
+/*----IRとグローバル----*/
+.arrow-ir a {
+	margin-right: 10px;
+	padding: 2px 25px 2px 10px;
+	background: url(../img_main/btn_ir_blue.gif) no-repeat right center;
+	color: #eeeeee;
+}
+.arrow-global a {
+	padding: 0px 0px 0px 10px;
+	color: #eeeeee;
+}
+.arrow-ir a:hover {
+	background: url(../img_main/btn_ir_blue_r.gif) no-repeat right center;
+	color: #FFCC00;
+}
+.arrow-global a:hover {
+	color: #FFCC00;
+}
+
+/*ヘッダー領域　メインリンク関連CSS
+---------------------------------------------------------- */
+#btn-main li {
+	float: left;
+	background: url(../img_main/arrow_mainmenu.gif) no-repeat 2px center;
+}
+#btn-main a {
+	display: block;
+	padding: 2px 10px 2px 15px;
+	color: #333333;
+	background: url(../img_main/header_menu_line.gif) no-repeat right center;
+}
+#btn-main a:hover {
+	color: #0066FF;
+}
+
+/* フッター
+------------------------------------------------------------ */
+#footer {
+	background: url(../img_main/footer_bg.gif) no-repeat center top;
+	text-align: center;
+}
+#menu-footer {
+	background: url(../img_main/footer_japan.gif) no-repeat left top;
+	height: 50px;
+	width: 790px;
+	margin: 0px auto;
+}
+#menu-footer ul {
+	margin: 0px 0px 0px 10px;
+}
+#menu-footer li {
+	position: relative;
+	top: 5px;
+	float: left;
+	margin: 0px 10px 0px 0px;
+	background: url(../img_main/arrow_footer.gif) no-repeat 0px 50%;
+}
+#menu-footer a {
+	padding: 0px 10px 0px 10px;
+}
+#c-footer li {
+	display: inline;
+	position: relative;
+	top: -25px;
+	text-transform: uppercase;
+	margin-left: 530px;
+}
+#PageTop-Footer {
+	padding: 5px 20px;
+	width: 750px;
+	text-align: right;
+	background: url(../img_main/footer_bg2.gif) no-repeat 0px 0px;
+	margin: 0px auto;
+}
+/* CSSハック
+------------------------------------------------------------ */
+.at-clear {
+	clear: both;
+}
+#at-clear {
+	clear: both;
+}
+.at-clear-h {
+	clear: both;
+	width: 40px;
+	height: 1px;
+	/*background-color: #CC9900;--■■背景黄土色ー■■--*/
+}
+.clearfix:after {
+    content: "."; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
+}
+
+.clearfix { display: inline-block; }
+
+/* Hides from IE-mac \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* End hide from IE-mac */

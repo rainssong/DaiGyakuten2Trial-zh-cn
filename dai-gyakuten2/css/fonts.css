@@ -1,0 +1,73 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+   font-family: 'Noto Serif Japanese';
+   font-style: normal;
+   font-weight: 400;
+	 src: url(../inc/fonts/NotoSerifCJKjp-Regular-horizontal.woff) format('woff');
+ }
+@font-face {
+   font-family: 'Noto Serif Japanese';
+   font-style: normal;
+   font-weight: 700;
+	 src: url(../inc/fonts/NotoSerifCJKjp-Bold-horizontal.woff) format('woff');
+ }
+@font-face {
+   font-family: 'Noto Serif Japanese vertical';
+   font-style: normal;
+   font-weight: 400;
+	 src: url(../inc/fonts/NotoSerifCJKjp-Regular-vertical.woff) format('woff');
+ }
+@font-face {
+   font-family: 'Noto Serif Japanese vertical';
+   font-style: normal;
+   font-weight: 700;
+	 src: url(../inc/fonts/NotoSerifCJKjp-Bold-vertical.woff) format('woff');
+ }
+
+
+/*
+@font-face {
+  font-family: 'Noto Serif Japanese';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../inc/fonts/NotoSerifCJKjp-Regular.otf) format('opentype');
+ }
+@font-face {
+   font-family: 'Noto Serif Japanese';
+   font-style: normal;
+   font-weight: 700;
+	 src: url(../inc/fonts/NotoSerifCJKjp-Bold.otf) format('opentype');
+ }
+
+@font-face {
+  font-family: 'Noto Serif Japanese';
+  font-style: normal;
+  font-weight: 100;
+  src: url(../inc/fonts/NotoSerifCJKjp-ExtraLight.otf) format('opentype');
+}
+@font-face {
+  font-family: 'Noto Serif Japanese';
+  font-style: normal;
+  font-weight: 200;
+  src: url(../inc/fonts/NotoSerifCJKjp-Light.otf) format('opentype');
+}
+@font-face {
+  font-family: 'Noto Serif Japanese';
+  font-style: normal;
+  font-weight: 500;
+  src: url(../inc/fonts/NotoSerifCJKjp-Medium.otf) format('opentype');
+ }
+@font-face {
+  font-family: 'Noto Serif Japanese';
+  font-style: normal;
+  font-weight: 600;
+  src: url(../inc/fonts/NotoSerifCJKjp-SemiBold.otf) format('opentype');
+ }
+@font-face {
+  font-family: 'Noto Serif Japanese';
+  font-style: normal;
+  font-weight: 900;
+  src: url(../inc/fonts/NotoSerifCJKjp-Black.otf) format('opentype');
+ }
+*/

@@ -1,0 +1,560 @@
+@charset "utf-8";
+/* CSS Document */
+
+/******************************************
+	base
+******************************************/
+body{
+	width:100%;
+	min-width:1200px;
+	}
+
+.serif{
+	font-family: 'Noto Serif Japanese';	
+}
+
+body.subpage{
+	background:url(../images/common/bg_white.png) center 0 repeat;
+	}
+
+#wrapper{
+	position: relative;
+	}
+/******************************************
+	gNavi
+******************************************/
+#gNavi{
+	width: 200px;
+	bottom: 0;
+	left: 0;
+	background: #35332c;
+	z-index: 1000;
+	position: absolute;
+}
+#gNavi.fixed{
+	top:0;
+	position: fixed;	
+}
+#gNavi * img{
+	padding-top: 5%;
+	width: 90%;
+	margin: auto auto;
+}
+
+#gNavi ul{
+	display: block;
+	width: 200px;
+}
+
+#gNavi ul li{
+	position: relative;
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	vertical-align: middle;
+}
+
+#gNavi ul li + li:after{
+	content: "";
+	display: block;
+	position: absolute;
+	background: url(../images/common/gNavi_selector.png) center center no-repeat;
+	width: 100%;
+	height: 0;
+	padding-bottom: 30px;
+	bottom: -15px;
+}
+#gNavi ul li:last-child:after{
+	content: "";
+	display: none;
+}
+#gNavi ul li:nth-last-child(2):after{
+	content: "";
+	display: none;
+}
+
+#gNavi ul li.top{
+	box-sizing: border-box;
+}
+#gNavi ul li.trial{
+	background: #a69969;
+}
+
+#gNavi ul li a{
+	position: relative;
+	display: block;
+	top: 50%;
+	margin-top: -0.7em;
+	letter-spacing: 0.05em;
+	font-weight: 700;
+	font-size: 1.8rem;
+	color: #fdfaec;
+	text-decoration: none;
+}
+@media screen and (max-height: 600px) {
+	#gNavi ul li + li a{
+		font-size: 1.4rem;
+	}
+}
+
+#gNavi ul li.top a{
+	display: block;
+	margin: 0 10px;
+	box-sizing: border-box;
+	white-space: nowrap;
+	text-indent: 100%;
+	overflow: hidden;
+	top: 30%;
+	background: url(../images/common/logo.png) center 0 no-repeat;
+	background-size: contain;
+	width: 180px;
+	height: 60%;
+}
+
+
+#gNavi ul li.active a {
+	color: #a69969;
+}
+#gNavi ul li+li:not(.trial):hover a {
+	color: #a69969;
+}
+
+
+#gNavi ul li a:after{
+	position: absolute;
+	font-weight: 100;
+	font-size: 1rem;
+	top: 2rem;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto auto;
+}
+
+#gNavi ul li.introduction a:after{
+	content: "Introduction";
+}
+#gNavi ul li.story a:after{
+	content: "Story";
+}
+#gNavi ul li.character a:after{
+	content: "Character";
+}
+#gNavi ul li.system a:after{
+	content: "System";
+}
+#gNavi ul li.movie a:after{
+	content: "Movie";
+}
+#gNavi ul li.product a:after{
+	content: "Product";
+}
+
+#gNavi ul li.trial a {
+	color: #fdfaec;
+	left: 15%;
+}
+#gNavi ul li.trial a:before {
+	content: "";
+	display: block;
+	position: absolute;
+	background: url(../images/common/gNavi_trial.png) center center no-repeat;
+	background-size: contain;
+	width: 200%;
+	height: 200%;
+	top: 0;
+	bottom: 0;
+	left:-95%;
+	margin: auto auto;
+}
+
+#gNavi ul li.up:before {
+	content: "UP!!";
+	font-family: "Noto Sans JP";
+	font-size: 1rem;
+	font-weight: 700;
+	color: #35332c;
+	position: absolute;
+	display: block;
+	width: 3em;
+	height: 1.6em;
+	left: 2em;
+	top: 0;
+	bottom: 0;
+	margin: auto auto;
+	background: #f8f1d5;
+	line-height: 1.6em;
+	border-radius: 10px;
+}
+
+
+/******************************************
+	subpage
+******************************************/
+.subpage #ttlArea{
+	text-align: right;
+	font-family: 'Noto Serif Japanese';
+	color: #a69969;	
+}
+
+.subpage #ttlArea h1{
+	position: relative;
+	display: inline-block;
+	margin-top: 50px;
+	font-weight: 700;
+	font-size: 4.8rem;
+	padding-right: 30px;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+
+.subpage #ttlArea h1:after{
+	content: "";
+	position: absolute;
+	display: block;
+	border-bottom: 1px solid #a69969;
+	width: 100%;
+	height: 0;
+	padding-bottom: 10px;
+}
+
+.subpage #ttlArea h1 + p{
+	font-size: 2rem;
+	font-weight: 700;
+	padding-right: 30px;
+}
+
+.subpage #mainConts{
+	box-sizing: border-box;
+	margin: 40px 0 0 auto;
+	width: 100%;
+	padding-left: 200px;
+	min-height: 500px;
+}
+.subpage #mainConts .inner > h1{
+	width: 100%;
+	background: #FFF;
+	text-align: center;
+	font-family: 'Noto Serif Japanese';
+	font-size:3.8rem;
+	font-weight: 700;
+	color: #a69969;	
+	line-height: 80px;
+}
+.subpage #mainConts .inner > h1:before{
+	content: "";
+	display: inline-block;
+	position: relative;
+	background: url(../images/common/icon_flower.png) center center no-repeat;
+	background-size: contain;
+	top: -5px;
+	width:20px;
+	height: 0;
+	padding-bottom:20px;
+	margin-right: 10px;
+}
+
+.subpage #mainConts .inner > h1:after{
+	content: "";
+	display: inline-block;
+	position: relative;
+	background: url(../images/common/icon_flower.png) center center no-repeat;
+	background-size: contain;
+	top: -5px;
+	width:20px;
+	height: 0;
+	padding-bottom:20px;
+	margin-left: 10px;
+}
+
+.w940{
+	width:940px;
+}
+aside ul li{
+	position: relative;
+	display: table;
+	font-size: 1.4rem;
+	line-height: 1.6em;
+	padding-left: 1.6rem;
+	}
+aside ul li:before{
+	content: "※";
+	left: 0;
+	position: absolute;
+	display: table-cell;
+	}
+
+/******************************************
+	subpage character
+******************************************/
+#character #charaMenu{
+	position: absolute;
+	top: 150px;
+	right: 10px;
+	box-sizing: border-box;
+}
+
+#character #charaMenu p{
+	text-align: center;
+	font-size: 1.6rem;
+	font-weight: 700;
+	color: #a69969;
+	margin: 20px auto 10px;
+}
+
+#character #charaMenu p:before{
+	content: "";
+	display: inline-block;
+	position: relative;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: url(../images/common/icon_flower.png) center center no-repeat;
+	background-size: contain;
+	width: 10px;
+	height: 0;
+	padding-bottom: 10px;
+	margin: auto 10px auto auto;
+}
+#character #charaMenu p:after{
+	content: "";
+	position: relative;
+	display: inline-block;
+	position: relative;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: url(../images/common/icon_flower.png) center center no-repeat;
+	background-size: contain;
+	width: 10px;
+	height: 0;
+	padding-bottom: 10px;
+	margin: auto auto auto 10px;
+}
+
+#character #charaMenu ul{
+	letter-spacing: -.40em;
+	width: 210px;
+}
+
+#character #charaMenu ul li{
+	letter-spacing: normal;
+	display: inline-block;
+	position: relative;
+	width: 70px;
+	height: 70px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+#character #charaMenu a {
+	display: block;
+}
+#character #charaMenu a circle {
+	fill: transparent;
+	stroke-width: 1.5;
+}
+ @keyframes circle {
+	 0% {
+	stroke-dasharray: 0 240;
+	}
+	 99.9%, to {
+	stroke-dasharray: 240 240;
+	}
+}
+#character #charaMenu li:not(.active):hover circle {
+	stroke: #a69969;
+	animation: circle 0.5s;
+}
+#character #charaMenu li:not(.active):hover svg {
+	display: block;
+	position: absolute;
+	top: -6px;
+	left: -6px;
+	transform-origin: 35px 35px;
+	transform: rotate(-90deg);
+}
+
+#character #charaMenu li.active circle {
+	stroke: #a69969;
+	animation: circle 0s;
+}
+#character #charaMenu li.active svg {
+	display: block;
+	position: absolute;
+	top: -6px;
+	left: -6px;
+	transform-origin: 35px 35px;
+	transform: rotate(-90deg);
+}
+
+
+#character #charaMenu li a {
+	display: block;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top:0;
+	bottom: 0;
+	margin: auto auto;
+	width: 58px;
+	height: 58px;	
+}
+
+#character #charaMenu li.naruhodo a {
+	background: url(../character/images/icon_naruhodo.png) center center no-repeat;
+}
+#character #charaMenu li.naruhodo.active a {
+	background: url(../character/images/icon_naruhodo_on.png) center center no-repeat;
+}
+#character #charaMenu li.holmes a {
+	background: url(../character/images/icon_holmes.png) center center no-repeat;
+}
+#character #charaMenu li.holmes.active a {
+	background: url(../character/images/icon_holmes_on.png) center center no-repeat;
+}
+#character #charaMenu li.ryutaro a {
+	background: url(../character/images/icon_ryutaro.png) center center no-repeat;
+}
+#character #charaMenu li.ryutaro.active a {
+	background: url(../character/images/icon_ryutaro_on.png) center center no-repeat;
+}
+#character #charaMenu li.haori a {
+	background: url(../character/images/icon_haori.png) center center no-repeat;
+}
+#character #charaMenu li.soseki a {
+	background: url(../character/images/icon_soseki.png) center center no-repeat;
+}
+#character #charaMenu li.hosonaga a {
+	background: url(../character/images/icon_hosonaga.png) center center no-repeat;
+}
+
+
+
+/******************************************
+	bnrArea_top
+******************************************/
+#top #bnrArea{
+	position:relative;
+	padding:40px 0;
+	background:#242420;
+	}
+
+#top #bnrArea:before{
+	content:"";
+	width:100%;
+	position:absolute;
+	top:-20px;
+	display:block;
+	background:url(../images/common/line_foot.png) 0 0 repeat-x;
+	height:0;
+	padding-top:20px;
+	}
+
+
+#top #bnrArea ul{
+	display:block;
+	margin:0 auto;
+	letter-spacing:-.40em;
+	text-align:center;
+	line-height:0;
+	}
+
+#top #bnrArea ul li{
+	width:285px;
+	display:inline-block;
+	letter-spacing:normal;	
+	box-sizing:border-box;
+	border:1px solid #FFF;
+	margin:5px;
+	}
+
+
+#top #bnrArea ul li img{
+	width:100%;
+	}
+/******************************************
+	bnrArea_sub
+******************************************/
+.subpage #bnrArea{
+	width: 100%;
+	box-sizing: border-box;
+	position:relative;
+	padding:100px 0 40px 200px;
+	}
+
+.subpage #bnrArea ul{
+	display:block;
+	margin:0 auto;
+	letter-spacing:-.40em;
+	text-align:center;
+	line-height:0;
+	}
+
+.subpage #bnrArea ul li{
+	display:inline-block;
+	letter-spacing:normal;	
+	box-sizing:border-box;
+	margin:5px;
+	width: 600px;
+	}
+
+.subpage #bnrArea ul li img{
+	width:100%;
+	}
+
+
+
+/******************************************
+	footer_sns
+******************************************/
+
+#footer_sns{
+	padding:10px 0;
+	background:#000;
+	border-top:1px solid #444;
+	}
+
+#footer_sns ul{
+	display:block;
+	margin:0 auto;
+	letter-spacing:-.40em;
+	text-align:center;
+	line-height:0;
+	}
+
+#footer_sns ul li{
+	display:inline-block;
+	letter-spacing:normal;
+	}
+
+#footer_sns ul li + li{
+	margin-left:10px;
+	}
+
+/******************************************
+	pagetop
+******************************************/
+#pagetop {
+  position: fixed;
+  bottom: 20px;
+  right: 40px;
+  z-index: 100;
+  display: none;
+	width: 8.50%;
+}
+
+#pagetop a{
+	display: block;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	background: url(../images/common/topBtn_icon.png) 0 0 no-repeat;
+	background-size: contain;
+	width: 100%;
+	padding-bottom:167%;
+}
+
+

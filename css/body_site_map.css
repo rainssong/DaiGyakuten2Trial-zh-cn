@@ -1,0 +1,63 @@
+@charset "shift-jis";
+/****************************----サイトマップ----****************************/
+.sitemapBoxLeft, .sitemapBoxRight {
+	width: 310px;
+	padding: 10px 10px 10px 10px;
+	border-top: 3px #666683 solid;
+	border-left: 1px #666683 solid;
+	border-right: 1px #666683 solid;
+	border-bottom: 0px;
+	background-color: #FFFFFF;
+	text-align: left;
+}
+.sitemapBoxCoLeft, .sitemapBoxCoRight {
+	width: 310px;
+	padding: 0px 10px 10px 10px;
+	text-align: left;
+}
+.sitemapBoxLeft, .sitemapBoxCoLeft {
+	float: left;
+}
+.sitemapBoxRight, .sitemapBoxCoRight {
+	float: right;
+}
+.sitemapTitleBar {
+	color: #FFFFFF;
+	height: 24px;
+	padding: 0px 0px 0px 10px;
+	background: url(../site/img_site/sitemap_titlebar.gif) no-repeat 0% 50%; 
+	margin-bottom: 10px;
+	clear: both;
+}
+#Contents-TermsOfUseBox div.clearfix {
+	background: url(../site/img_site/box_bottom.gif) no-repeat 50% 100%;
+	margin-bottom: 17px;
+	padding: 0px 0px 7px 0px;
+}
+.Title-Line {
+	background: url(../games_service/img_gs/contents_title_line01.gif) no-repeat 100% 100%;
+	padding: 0px 0px 2px 0px;
+	margin-bottom: 5px;
+}
+.sitemapBoxCoLeft dt.Title-Line, .sitemapBoxCoRight dt.Title-Line {
+	background: url(../img_main/dotted.gif) repeat-x 0% 100%;
+	margin-bottom: 5px;
+}
+dd a {
+	background: url(../img_main/arrow_menu.gif) no-repeat 0% 50%;
+	padding: 0px 0px 0px 12px;
+	display: block;
+	width: 250px;
+}
+#sitemapBoxGame dd a {
+	background: url(../img_main/page_game.gif) no-repeat 0% 50%;
+	padding: 0px 0px 0px 25px;
+	display: block;
+	width: 250px;
+}
+dd.sitemapBoxCo a {
+	background: url(../img_main/page_ir.gif) no-repeat 0% 50%;
+	padding: 0px 0px 0px 25px;
+	display: block;
+	width: 250px;
+}

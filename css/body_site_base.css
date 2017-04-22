@@ -1,0 +1,164 @@
+@charset "shift-jis";
+/****----個人情報の取扱いについて----****/
+h2.ContentsTitle {
+	color: #FFFFFF;
+}
+#Contents-SiteBox {
+	position: relative;
+	left: 3px;
+	width: 777px;
+	padding: 0px 0px 0px 0px;
+	background: #eeeeee url(../img_main/dotted03.gif) repeat-y 50% 0%;
+	margin: 0px auto;
+}
+#Contents-SiteNavi {
+	float: left;
+	width: 250px;
+	padding: 10px 10px 10px 10px;
+}
+#Contents-SiteNavi li {
+	margin: 0px 0px 15px 0px;
+}
+#Contents-SiteNavi li a {
+	display: block;
+	padding: 0px 0px 0px 12px;
+	margin: 0px;
+	background: url(../img_contents/arrow_menu.gif) no-repeat 0% 50%;
+}
+.ActivPrivacy {
+	display: block;
+	margin: 0px;
+	padding: 0px 0px 0px 12px;
+	background: url(../img_contents/arrow_menu_activ.gif) no-repeat 0% 50%;
+}
+#Contents-SiteContents {
+	float: right;
+	width: 487px;
+	padding: 10px 10px 10px 10px;
+}
+#Contents-SiteContents h3 {
+	display: block;
+	font-size: 85%;
+	font-weight: bold;
+	text-align: left;
+}
+.privacyTXT {
+	width: 465px;
+	padding: 10px;
+	background-color: #FFFFFF;
+	border: 1px solid #666666;
+	text-align: left;
+}
+.privacyTXT ol {
+	width: 385px;
+	padding: 0px 30px 0px 30px;
+}
+.privacyTXT li {
+	padding: 0px 0px 15px 0px;
+}
+#Sign-President {
+	text-align: right;
+}
+ol.indentOL {
+	width: 345px;
+	padding-top: 10px;
+}
+.indentUL {
+	width: 345px;
+	list-style-type: square;
+	padding: 10px 0px 0px 20px;
+}
+#Contents-SiteContents p {
+	margin-bottom: 14px;
+}
+/****----ウェブサイトにおける個人情報の取扱い----****/
+dt {
+	font-weight: bold;
+}
+dd {
+	margin-left: 12px;
+}
+.ListKatakana {
+	list-style-type: katakana;
+	padding-top: 10px;
+}
+.ListLatin {
+	list-style-type: upper-latin;
+	padding-top: 10px;
+}
+.ListRoman{
+	list-style-type: upper-roman;
+	padding-top: 10px;
+}
+.ListABC{
+	list-style-type: lower-alpha;
+	padding-top: 10px;
+}
+.ListKanji {
+	list-style-type: cjk-ideographic;
+	padding-top: 10px;
+}
+.privacyTXT li.list-StarBlack-nest  {
+	background: url(../img_contents/list_star_black.gif) no-repeat 0px 3px;
+	padding: 0px 0px 0px 12px;
+	margin: 0px;
+}
+
+
+/****************************----ご利用にあたって----****************************/
+#Contents-TermsOfUseBox {
+	position: relative;
+	left: 3px;
+	width: 677px;
+	padding: 10px 50px;
+	background-color: #eeeeee;
+	text-align: center;
+	margin: 0px auto;
+}
+#Contents-TermsOfUseBox h3 {
+	display: block;
+	font-size: 85%;
+	font-weight: bold;
+	text-align: left;
+}
+#Contents-TermsOfUseBox p {
+	width: 620px;
+	margin: 5px auto 30px auto;
+	padding: 10px;
+	background-color: #FFFFFF;
+	border: 1px solid #666666;
+	text-align: left;
+}
+#Contents-TermsOfUseBox p.FontSize-StrongTxt {
+	width: 550px;
+	margin: 0px auto 30px auto;
+	padding: 0px;
+	background-color: #eeeeee;
+	border: 0px;
+	text-align: left;
+}
+/***RSSに関して****/
+#Contents-TermsOfUseBox dl.rssArea {
+	width: 620px;
+	margin: 5px auto 30px auto;
+	padding: 10px;
+	background-color: #FFFFFF;
+	border: 1px solid #666666;
+	text-align: left;
+}
+#Contents-TermsOfUseBox dl.rssArea dt {
+	margin: 0px 0px 10px 0px;
+}
+#Contents-TermsOfUseBox dl.rssArea dd {
+	margin: 0px 0px 10px 0px;
+}
+#Contents-TermsOfUseBox dl.rssArea dd a {
+	background: url(../img_main/rss.gif) no-repeat 0% 50%;
+	padding: 0px 0px 0px 42px;
+}
+
+#Contents-TermsOfUseBox ul#rssArea {
+	width: 500px;
+	text-align: left;
+	margin: 5px auto 30px auto;
+}
